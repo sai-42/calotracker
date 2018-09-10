@@ -22,3 +22,7 @@ body {
 .noborder {
   border: none;
 }
+
+#item-list {
+  font-size: 16px;
+}
