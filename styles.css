@@ -1,7 +1,8 @@
 html {
   background: url("./assets/images/2.jpeg") no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
   overflow: hidden;
 }
 
@@ -15,8 +16,9 @@ body {
   background: -webkit-linear-gradient(top left, #4d4d4d, #000);
   background: linear-gradient(to bottom right , #4d4d4d, #000);
   background-color: #4d4d4d;
-  box-shadow: 5px 8px rgba(0, 0, 0, 0.26) 12px #0b2b08;
+  box-shadow: 5px 8px hsla(0, 0%, 0%, 0.26) 12px #0b2b08;
   padding: 10px;
+  
 }
 
 .noborder {
