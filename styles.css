@@ -1,0 +1,24 @@
+html {
+  background: url("./assets/images/2.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 29px;
+}
+
+.total {
+  color: #fafafa;
+  background: -webkit-linear-gradient(top left, #4d4d4d, #000);
+  background: linear-gradient(to bottom right , #4d4d4d, #000);
+  background-color: #4d4d4d;
+  box-shadow: 5px 8px rgba(0, 0, 0, 0.26) 12px #0b2b08;
+  padding: 10px;
+}
+
+.noborder {
+  border: none;
+}
